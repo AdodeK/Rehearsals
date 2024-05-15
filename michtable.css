@@ -31,3 +31,9 @@ div{
     }
     
 }
+@media screen and (max-width: 460px) {
+    div{
+        width: 100%;
+    }
+    
+}
