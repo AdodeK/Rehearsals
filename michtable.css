@@ -19,6 +19,9 @@ table {
 tr:hover{
     background-color: rgb(209, 227, 221);
 }
+#lastTable{
+    width: 50%;
+}
 
 div{ 
     width:60%;
@@ -34,6 +37,13 @@ div{
 @media screen and (max-width: 460px) {
     div{
         width: 100%;
+    }
+    .firsttwo{
+        font-size: 14px;
+    }
+    #lastTable{
+        /* width: 50%; */
+        font-size: 14px;
     }
     
 }
