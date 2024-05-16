@@ -24,13 +24,23 @@ tr:hover{
 }
 
 div{ 
-    width:70%;
+    width:60%;
     margin: 0 auto;
 } 
 
 @media screen and (max-width: 768px) {
     div{
         width: 100%;
+    }
+    .firsttwo{
+        width: 90%;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    #lastTable{
+        width: 80%;
+        font-size: 15px;
+        margin: 0 auto;
     }
     
 }
@@ -39,11 +49,14 @@ div{
         width: 100%;
     }
     .firsttwo{
+        width: 90%;
         font-size: 14px;
+        margin: 0 auto;
     }
     #lastTable{
-        /* width: 50%; */
+        width: 90%;
         font-size: 14px;
+        margin: 0 auto;
     }
     
 }
